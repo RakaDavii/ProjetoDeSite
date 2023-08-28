@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie-file</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link  rel="stylesheet" href="style/Style_botoes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="background">
+    <header>
+        <div class="titulo">
+        <h1>Movie-file</h1>
+        <img src="assests/Logo.png" width="5%">
+        </div>
+        <nav class="botoes">
+            <a href="index.html" class="botao__nao__selecionado__esquerdo">critíca</a>
+            <a href="emCartaz.html" class="botao__nao__selecionado__esquerdo">em cartaz</a>
+            <a href="Sobre.html" class="botao__selecionado">sobre</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="filme_sobre">
+                <img class="avaliacao" src="assests/Filme1.jpg" alt="Homem-aranha" width="18%">
+                <div class="texto_e_avaliacao">
+                    <h3>Homem-Aranha Atráves do Aranhaverso</h3>
+                    <p class="titulo_resenha">É preciso reconhecer a capacidade da Sony de não largar o osso. Quando, após dois retumbantes fracassos com um dos personagens mais reconhecidos dos quadrinhos, achávamos que ela finalmente entregaria o jogo e devolveria o Homem-Aranha para a Marvel, ela consegue tirar não leite, mas uma vaca inteira da pedra, com o surpreendente retorno financeiro de Venom e agora, graças à uma saga dos quadrinhos, a Sony percebe que não precisa simplesmente trabalhar com Peter Parker, quando há vários universos com inúmeros Homens-Aranha.</p>  
+                    <div>
+                        <ul class="avaliacao">
+                            <li class="star-icon ativo" data-avaliacao="1"></li>
+                            <li class="star-icon" data-avaliacao="2"></li>
+                            <li class="star-icon" data-avaliacao="3"></li>
+                            <li class="star-icon" data-avaliacao="4"></li>
+                            <li class="star-icon" data-avaliacao="5"></li>
+                    </div>
+                </div> 
+            </div>
+            <form>
+                <div class="comentario">
+                <label for="coment"> Comentario:</label>
+                <textarea rows="8" cols="50" name="Comentario"
+                id="coment" maxlength="300"></textarea>
+                </div>
+            </form>
+            <div >
+                <img class="outros" src="assests/Filme7.jpg" alt="filme" width="20%">
+                <img class="outros" src="assests/Filme5.jpg" alt="filme" width="20%">
+                <img class="outros" src="assests/Filme9.jpg" alt="filme" width="17.3%">
+                <img class="outros" src="assests/Filme4.jpg" alt="filme" width="17%">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="rodape">
+            <form>
+                <div class="form_position">
+                    <label for="email">Quer receber atualizações?</label>
+                    <input type="text" id="email" placeholder="exemplo@gmail.com">
+                </div>
+                <div class="form_position">
+                    <button class="redes_botao" type="submit" onclick="exibeAlert()">Confirmar</button>
+                </div>
+            </form>
+            <div class="redes">
+                <h3 class="redes2">Redes Sociais</h3>
+                <img src="assests/redes.png" width="10%">
+                <p class="redes__text">Copyright © Davi Felpe: todos os direitos</p>
+            </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    background-color: #1E2024;
+    height: 55.px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-right: 15px;
+    color: white;
+    align-items: center;
+    font-size: 180%;
+}
+
+.background{
+    background-color: white;
+}
+
+.botoes{
+    
+    text-decoration: none;
+    display: flex;
+    color: white;
+    font-size: 18px;
+    flex-direction: row;
+}
+
+.botoes__selecionado{
+    background-color: white;
+    color: black;
+    margin-right: 1%;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px 5px 0px 0px;
+    min-width: 100px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+
+.botoes__selecionado:hover{
+    color: #777474;
+}
+
+.botoes__nao__selecionado{
+    background-color: #3F434F;
+    color: white;
+    margin-right: 1%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px 5px 0px 0px;
+    min-width: 100px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+
+.botoes__nao__selecionado:hover{
+    color: #272727;
+}
+
+.titulo_filmes{
+    display: flex;
+    align-items: center;
+    margin: 3% 0% -4% 7%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.filmes{
+    display: flex;
+    align-items: center;
+    margin: 7% 7% 0% 7%;
+    justify-content: space-between;
+}
+
+.filmes__banner{
+    border-radius: 7%;
+}
+
+.filmes__resenha{
+    margin-left: 1%;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 300;
+    margin-right: 25%;
+}
+
+footer{
+    background-color: #1E2024;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.rodape{
+    display:flex;
+    justify-content: space-around;
+}
+
+.rodape__form{
+    display: flex;
+    align-items: center;
+}
+
+form{  
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form_position{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-left: 80px;
+    text-align: center;
+}
+
+form input{
+    outline: unset;
+    padding: 5px;
+    width: 200px;
+    border: 1px #3F434F;
+    border-radius: 10px;
+}
+
+form input :focus {
+    background-color: #56585e;
+}
+
+form button{
+    outline: unset;
+    border: 1px #3F434F;
+    border-radius: 5px;
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.redes2{
+    color: white;
+}
+
+.redes_botao{
+    cursor: pointer;
+}
+
+.redes_botao:hover{
+    border: solid 1px #1E2024;
+}
+
+.redes__text{
+    display: flex;
+    margin-top: 15px;
+}

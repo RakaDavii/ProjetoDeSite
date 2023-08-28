@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie-file</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link  rel="stylesheet" href="style/Style_botoes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="background">
+    <header>
+        <div class="titulo">
+        <h1>Movie-file</h1>
+        <img src="assests/Logo.png" width="5%">
+        </div>
+        <nav class="botoes">
+            <a href="index.html" class="botao__nao__selecionado__esquerdo">critíca</a>
+            <a href="emCartaz.html" class="botao__selecionado">em cartaz</a>
+            <a href="Sobre.html" class="botao__nao__selecionado">sobre</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <H1 class="em_cartaz">Em cartaz</H1>
+            <div class="wrapper">
+                <i id="esquerda" class="fa-solid fa-angle-left"></i>
+                <div class="carrosel">
+                    <img src="assests/Filme1.jpg" alt="filme"> 
+                    <img src="assests/Filme2.jpg" alt="filme"> 
+                    <img src="assests/Filme3.jpg" alt="filme"> 
+                    <img src="assests/Filme4.jpg" alt="filme"> 
+                    <img src="assests/Filme5.jpg" alt="filme"> 
+                    <img src="assests/Filme6.jpg" alt="filme"> 
+                    <img src="assests/Filme7.jpg" alt="filme"> 
+                    <img src="assests/Filme8.jpg" alt="filme"> 
+                    <img src="assests/Filme9.jpg" alt="filme"> 
+                </div>
+                <i id="direita" class="fa-solid fa-angle-right"></i>
+            </div>
+            <form>
+                <div class="organizar">
+                    <div>
+                        <div class="form_compras">
+                            <label for="Nome">Nome completo:</label>
+                            <input class="borda_input" type="text" id="nome">
+                        </div>
+                        <div class="form_compras">
+                            <label for="ingressos">Quantidade de ingressos:</label>
+                            <select class="borda_input" type="ingressos" id="ingresso">
+                                <option value="ingresso1">1</option>
+                                <option value="ingresso2">2</option>
+                                <option value="ingresso3">3</option>
+                                <option value="ingresso4">4</option>
+                            </select>
+                        </div>
+                        <div class="form_compras">
+                            <label for="cartao">Numero do cartão:</label>
+                            <input class="borda_input" type="text" id="card" placeholder="XXXX-XXXX-XXXX-1234">
+                        </div>
+                        <div class="form_compras">
+                            <label for="parcelas">Parcelas:</label>
+                            <select class="borda_input" type="vezes" id="parcela">
+                                <option value="1vez">1x sem juros</option>
+                                <option value="2vez">2x sem juros</option>
+                                <option value="3vez">3x sem juros</option>
+                                <option value="4vez">4x com juros</option>
+                            </select>
+                        </div>
+                    </div>    
+                    <div>
+                        <aside class="clube">
+                            <h3 class="titulo2">Promoção clube!</h3>
+                            <p>Entre para o clube do cinema e viva a magia da sétima arte! Descontos exclusivos em ingressos, sessões especiais e debates com cinéfilos apaixonados. Junte-se a nós e   mergulhe no universo cinematográfico.</p>
+                            <button class="clube_botao" type="submit"> Assinar </button>
+                        </aside>
+                    </div>
+                </div>    
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="rodape">
+            <form>
+                <div class="form_position">
+                    <label for="email">Quer receber atualizações?</label>
+                    <input type="text" id="email" placeholder="exemplo@gmail.com">
+                </div>
+                <div class="form_position">
+                    <button class="redes_botao" type="submit" onclick="exibeAlert()">Confirmar</button>
+                </div>
+            </form>
+            <div class="redes">
+                <h3 class="redes2">Redes Sociais</h3>
+                <img src="assests/redes.png" width="10%">
+                <p class="redes__text">Copyright © Davi Felpe: todos os direitos</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

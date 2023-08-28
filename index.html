@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie-file</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script.js"></script>
+</head>
+<body class="background">
+    <header>
+        <div class="titulo">
+        <h1>Movie-file</h1>
+        <img src="assests/Logo.png" width="5%">
+        </div>
+        <nav class="botoes">
+            <a href="index.html" class="botoes__selecionado">critíca</a>
+            <a href="emCartaz.html" class="botoes__nao__selecionado">em cartaz</a>
+            <a href="Sobre.html" class="botoes__nao__selecionado">sobre</a>
+        </nav>
+    </header>
+    <main>
+
+        <aside style="height: 100vh; position: fixed; top: 20px; margin-left: 93%; margin-top: 6%;">
+            <img src="assests/anuncio.jpg">
+        </aside>
+
+        <section style="display: flex; flex-wrap: wrap;">
+           
+            <h1 class="titulo_filmes">Resenhas</h1>
+
+            <div class="filmes">
+            <img class="filmes__banner" src="assests/Super-Mario-Bros-.jpeg" width="20%">
+            <p class="filmes__resenha">Quem me conhece sabe que não sou tão fã do Mario quanto a maioria. Claro que conheço a trajetória e a importância do encanador bigodudo e joguei diferentes de seus games, mas nunca mergulhei profundamente no mundo da mascote da Nintendo. Isso não significa, contudo, que eu seja alheia ao universo criado por Shigeru Miyamoto, tanto que pude aproveitar sem problemas Super Mario Bros. - O Filme, ao qual tive a oportunidade de assistir na pré-estreia a convite da Universal Pictures.</p>
+            </div>
+
+            <div class="filmes">
+                <img class="filmes__banner" src="assests/dont_look.png" width="20%">
+                <p class="filmes__resenha">Dois astrônomos medíocres descobrem que em poucos meses um meteorito destruirá o planeta Terra. A partir desse momento, eles devem alertar a humanidade por meio da imprensa sobre o perigo que se aproxima.</p>
+            </div>
+
+            <div class="filmes">
+                <img class="filmes__banner" src="assests/wakanda.jpg" width="20%">
+                <p class="filmes__resenha">Rainha Ramonda, Shuri, M'Baku, Okoye e Dora Milaje lutam para proteger sua nação das potências mundiais intervenientes após a morte do rei T'Challa.</p>
+            </div>
+
+            <div class="filmes">
+                <img class="filmes__banner" src="assests/bel-air.jpg" width="20%">
+                <p class="filmes__resenha">Um dos personagens icônicos da TV na última década, Will, também conhecido como Fresh Prince, é um jovem descolado e bem-humorado, que colore qualquer ambiente que esteja. Em uma segunda olhada, no entanto, sua figura também trazia traumas discutidos durante toda a série Um Maluco no Pedaço. Foi baseado nessa perspectiva mais dramática que Will Smith - que viveu o personagem original - criou o reboot Bel-Air, trazendo o protagonista para os dias atuais e dando mais foco à veia dramática do que para o humor. A nova versão, então, nasce como uma obra saudosista, respeitando a original, mas com sua própria identidade.</p>
+            </div>
+        
+        </section>
+          
+    </main>
+    <footer>
+        <section class="rodape">
+            <form>
+                <div class="form_position">
+                    <label for="email">Quer receber atualizações?</label>
+                    <input type="text" id="email" placeholder="exemplo@gmail.com">
+                </div>
+                <div class="form_position">
+                    <button class="redes_botao" type="submit" onclick="exibeAlert()">Confirmar</button>
+                </div>
+            </form>
+            <div class="redes">
+                <h3 class="redes2">Redes Sociais</h3>
+                <img src="assests/redes.png" width="10%">
+                <p class="redes__text">Copyright © Davi Felpe: todos os direitos</p>
+            </div>
+    </footer>
+</body>
+</html>
